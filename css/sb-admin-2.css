@@ -10584,7 +10584,7 @@ a:focus {
 }
 
 .bg-login-image {
-  background: url("https://unsplash.com/photos/2fyeLhUeYpg");
+  background: url("..//img/login.jpg");
   background-position: center;
   background-size: cover;
 }
