@@ -297,13 +297,15 @@
                   <input type="text" class="dropdown-menu animated--fade-in show" id="exampleDomicilio" placeholder="Domicilio">
                 </div>
                 <div class="form-group row">
-                  <div class="col-sm-4 mb-3 mb-sm-0">
-                    <select class="animated--fade-in" name="exampleProvincia" id="exampleProvincia">
-                    	<option selected>Seleccione</option>
-                        <option>Guayas</option>
-                        <option>Esmeraldas</option>
-                        <option>Manabi</option>
-                        </select>
+                  <div class="dropdown mb-4">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </button>
+                    <div class="dropdown-menu animated--fade-in" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
                   </div>
                   <div class="col-sm-4">
                     <input type="text" class="form-control form-control-user" id="exampleCiudad" placeholder="Ciudad">
