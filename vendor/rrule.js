@@ -2824,7 +2824,7 @@ var ENGLISH = {
         'for': /^for/i,
         'time(s)': /^times?/i,
         'until': /^(un)?til/i,
-        'lunes': /^mi(n(day)?)?/i,
+        'lunes': /^mo(n(day)?)?/i,
         'martes': /^tu(e(s(day)?)?)?/i,
         'miercoles': /^we(d(n(esday)?)?)?/i,
         'jueves': /^th(u(r(sday)?)?)?/i,
