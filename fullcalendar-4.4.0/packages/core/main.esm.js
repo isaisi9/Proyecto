@@ -422,7 +422,7 @@ function whenTransitionDone(el, callback) {
     });
 }
 
-var DAY_IDS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
+var DAY_IDS = ['lun', 'mar', 'mier', 'jue', 'vie', 'sab', 'dom'];
 // Adding
 function addWeeks(m, n) {
     var a = dateToUtcArray(m);
