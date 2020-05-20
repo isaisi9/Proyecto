@@ -2846,7 +2846,7 @@ var ENGLISH = {
         'comma': /^(,\s*|(and|or)\s*)+/i
     }
 };
-/* harmony default export */ var i18n = (ENGLISH);
+/* harmony default export */ var i18n = (SPANISH);
 
 // EXTERNAL MODULE: ./src/index.ts + 23 modules
 var src = __webpack_require__(1);
