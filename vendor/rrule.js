@@ -2791,7 +2791,7 @@ __webpack_require__.r(__webpack_exports__);
 // =============================================================================
 // i18n
 // =============================================================================
-var ENGLISH = {
+var SPANISH = {
     dayNames: [
         'Lunes', 'Martes', 'Miercoles', 'Jueves',
         'Viernes', 'Sabado', 'Domingo'
