@@ -2824,13 +2824,13 @@ var ENGLISH = {
         'for': /^for/i,
         'time(s)': /^times?/i,
         'until': /^(un)?til/i,
-        'monday': /^mo(n(day)?)?/i,
-        'tuesday': /^tu(e(s(day)?)?)?/i,
-        'wednesday': /^we(d(n(esday)?)?)?/i,
-        'thursday': /^th(u(r(sday)?)?)?/i,
-        'friday': /^fr(i(day)?)?/i,
-        'saturday': /^sa(t(urday)?)?/i,
-        'sunday': /^su(n(day)?)?/i,
+        'lunes': /^mo(n(day)?)?/i,
+        'martes': /^tu(e(s(day)?)?)?/i,
+        'miercoles': /^we(d(n(esday)?)?)?/i,
+        'jueves': /^th(u(r(sday)?)?)?/i,
+        'viernes': /^fr(i(day)?)?/i,
+        'sabado': /^sa(t(urday)?)?/i,
+        'domingo': /^su(n(day)?)?/i,
         'enero': /^jan(uary)?/i,
         'febrero': /^feb(ruary)?/i,
         'marzo': /^mar(ch)?/i,
@@ -3581,13 +3581,13 @@ function parseText(text, language) {
     }
     function decodeWKD() {
         switch (ttr.symbol) {
-            case 'monday':
-            case 'tuesday':
-            case 'wednesday':
-            case 'thursday':
-            case 'friday':
-            case 'saturday':
-            case 'sunday':
+            case 'lunes':
+            case 'martes':
+            case 'miercoles':
+            case 'jueves':
+            case 'viernes':
+            case 'sabado':
+            case 'domingo':
                 return ttr.symbol.substr(0, 2).toUpperCase();
             default:
                 return false;
