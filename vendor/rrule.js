@@ -2831,18 +2831,18 @@ var ENGLISH = {
         'friday': /^fr(i(day)?)?/i,
         'saturday': /^sa(t(urday)?)?/i,
         'sunday': /^su(n(day)?)?/i,
-        'january': /^jan(uary)?/i,
-        'february': /^feb(ruary)?/i,
-        'march': /^mar(ch)?/i,
-        'april': /^apr(il)?/i,
-        'may': /^may/i,
-        'june': /^june?/i,
-        'july': /^july?/i,
-        'august': /^aug(ust)?/i,
-        'september': /^sep(t(ember)?)?/i,
-        'october': /^oct(ober)?/i,
-        'november': /^nov(ember)?/i,
-        'december': /^dec(ember)?/i,
+        'enero': /^jan(uary)?/i,
+        'febrero': /^feb(ruary)?/i,
+        'marzo': /^mar(ch)?/i,
+        'abril': /^apr(il)?/i,
+        'mayo': /^may/i,
+        'junio': /^june?/i,
+        'julio': /^july?/i,
+        'agosto': /^aug(ust)?/i,
+        'septiembre': /^sep(t(ember)?)?/i,
+        'octubre': /^oct(ober)?/i,
+        'noviembre': /^nov(ember)?/i,
+        'diciembre': /^dec(ember)?/i,
         'comma': /^(,\s*|(and|or)\s*)+/i
     }
 };
@@ -3422,18 +3422,18 @@ function parseText(text, language) {
                 MDAYs();
                 F();
                 break;
-            case 'january':
-            case 'february':
-            case 'march':
-            case 'april':
-            case 'may':
-            case 'june':
-            case 'july':
-            case 'august':
-            case 'september':
-            case 'october':
-            case 'november':
-            case 'december':
+            case 'enero':
+            case 'febrero':
+            case 'marzo':
+            case 'abril':
+            case 'mayo':
+            case 'junio':
+            case 'julio':
+            case 'agosto':
+            case 'septiembre':
+            case 'octubre':
+            case 'noviembre':
+            case 'diciembre':
                 options.freq = src["default"].YEARLY;
                 options.bymonth = [decodeM()];
                 if (!ttr.nextSymbol())
@@ -3551,29 +3551,29 @@ function parseText(text, language) {
     }
     function decodeM() {
         switch (ttr.symbol) {
-            case 'january':
+            case 'enero':
                 return 1;
-            case 'february':
+            case 'febrero':
                 return 2;
-            case 'march':
+            case 'marzo':
                 return 3;
-            case 'april':
+            case 'abril':
                 return 4;
-            case 'may':
+            case 'mayo':
                 return 5;
-            case 'june':
+            case 'junio':
                 return 6;
-            case 'july':
+            case 'julio':
                 return 7;
-            case 'august':
+            case 'agosto':
                 return 8;
-            case 'september':
+            case 'septiembre':
                 return 9;
-            case 'october':
+            case 'octubre':
                 return 10;
-            case 'november':
+            case 'noviembre':
                 return 11;
-            case 'december':
+            case 'diciembre':
                 return 12;
             default:
                 return false;
