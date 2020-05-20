@@ -2793,13 +2793,13 @@ __webpack_require__.r(__webpack_exports__);
 // =============================================================================
 var ENGLISH = {
     dayNames: [
-        'Sunday', 'Monday', 'Tuesday', 'Wednesday',
-        'Thursday', 'Friday', 'Saturday'
+        'Lunes', 'Martes', 'Miercoles', 'Jueves',
+        'Viernes', 'Sabado', 'Domingo'
     ],
     monthNames: [
-        'January', 'February', 'March', 'April', 'May',
-        'June', 'July', 'August', 'September', 'October',
-        'November', 'December'
+        'Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo',
+        'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre',
+        'Noviembre', 'Diciembre'
     ],
     tokens: {
         'SKIP': /^[ \r\n\t]+|^\.$/,
