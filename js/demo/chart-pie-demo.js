@@ -7,11 +7,11 @@ var ctx = document.getElementById("myPieChart");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Hombres", "Mujeres", "No"],
+    labels: ["Hombres", "Mujeres", "Se arrepienten"],
     datasets: [{
       data: [62, 33, 5],
       backgroundColor: ['#4e73df', '#d11d1a', '#36b9cc'],
-      hoverBackgroundColor: ['#2e59d9', '#d11d1a', '#2c9faf'],
+      hoverBackgroundColor: ['#2e59d9', '#ca0906', '#2c9faf'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   },
