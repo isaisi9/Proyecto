@@ -301,20 +301,22 @@
           
 		  <table class="user" width="100%" >
           <tr>
-          	<td colspan="4" align="center" style="color:#333;background-color:#CCC;"><b>Datos Personales</b></td>
+          	<tr>
+            <td colspan="5" style="color:#333;background-color:#E9E9E9;"><b>Carta de Compromiso</b></td>
+          </tr>
           </tr>
           <tr>
-            <td width="49%" colspan="2"><select style="border-bottom:1px" class="form-control form-control-user" name="txtUnidMedica">
+            <td colspan="3"><select style="border-bottom:1px" class="form-control form-control-user" name="txtUnidMedica">
                         	<option selected>Centro Medico Guayaquil</option>
                         	<option>Cruz Roja Centro</option>
                             <option>Centro de acopio CRG Norte</option>
                     		</select></td>
-            <td width="23%"><input type="text" class="form-control form-control-user" id="txtNoCarta" placeholder="No de Carta Comp."></td>
-            <td width="23%"><input type="date" class="form-control form-control-user" id="txtFecha" placeholder="Fecha"></td>
+            <td width="25%"><input type="text" class="form-control form-control-user" id="txtNoCarta" placeholder="No de Carta Comp."></td>
+            <td width="21%"><input type="date" class="form-control form-control-user" id="txtFecha" placeholder="Fecha"></td>
           </tr>
           <tr>
-            <td><input type="text" class="form-control form-control-user" id="txtPaciente" placeholder="Paciente"></td>
-            <td><a href="https://imgbb.com/"><img src="https://i.ibb.co/BjsP270/13d99f3d0cf4aec174b5869efa816e13-icono-de-lupa.png" width="25px" height="25px" border="0"></a></td>
+            <td colspan="2"><input type="text" class="form-control form-control-user" id="txtPaciente" placeholder="Paciente"></td>
+            <td width="7%"><a href="https://imgbb.com/"><img src="https://i.ibb.co/BjsP270/13d99f3d0cf4aec174b5869efa816e13-icono-de-lupa.png" width="25px" height="25px" border="0"></a></td>
             <td><input type="text" class="form-control form-control-user" id="txtEdad" placeholder="Edad"></td>
             <td><select style="border-bottom:1px" class="form-control form-control-user" name="txtUnidMedica">
                         	<option selected>Grupo Sangu&iacute;neo</option>
@@ -327,8 +329,56 @@
                             <option>O+</option>
                             <option>O-</option>
                     		</select></td>
+          </tr>
+          <tr>
+            <td colspan="3"><input type="text" class="form-control form-control-user" id="txtDiagnostico" placeholder="Diagnostico"></td>
+            <td ><input type="text" class="form-control form-control-user" id="txtCama" placeholder="Cama"></td>
+            <td ><input type="date" class="form-control form-control-user" id="txtExpediente" placeholder="Expediente"></td>
           </tr> 
+          <tr>
+            <td width="28%" ><input type="text" class="form-control form-control-user" id="txtServicio" placeholder="Servicio"></td>
+            <td colspan="2" ><input type="text" class="form-control form-control-user" id="txtSolicitud" placeholder="Solicitud"></td>
+            <td ><input type="text" class="form-control form-control-user" id="txtHematocrito" placeholder="Hematocrito"></td>
+            <td ><input type="text" class="form-control form-control-user" id="txtHemoglobina" placeholder="Hemoglobina"></td>
+          </tr> 
+          <tr>
+            <td colspan="5" style="color:#333;background-color:#E9E9E9;"><b>Datos del Familiar</b></td>
+          </tr>
+          <tr>
+            <td colspan="3"><input type="text" class="form-control form-control-user" id="txtNombre" placeholder="Nombre"></td>
+            <td ><input type="text" class="form-control form-control-user" id="txtParentesco" placeholder="Parentesco"></td>
+            <td >&nbsp;</td>
+          </tr>
+          <tr>
+            <td colspan="3"><input type="text" class="form-control form-control-user" id="txtDominio" placeholder="Dominio"></td>
+            <td ><input type="text" class="form-control form-control-user" id="txtTelefono" placeholder="Tel&eacute;fono"></td>
+            <td ><input type="text" class="form-control form-control-user" id="txtDelegacion" placeholder="Delegaci&oacute;n"></td>
+          </tr>
+          <tr>
+            <td colspan="5" style="color:#333;background-color:#E9E9E9;"><b>Detalle de la Solicitud</b></td>
+          </tr>
+          <tr>
+            <td colspan="5"><table class="table-danger" width="200" border="1">
+                              <tr>
+                                <td>Cantidad</td>
+                                <td>Producto</td>
+                                <td>No. de Registro</td>
+                              </tr>
           </table>
+          
+                              <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                              </tr>
+                              <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                              </tr>
+                            </table>
+		  </td>
+          </tr>
           
           <a href="NuevoDonante.html" class="btn btn-danger btn-user btn-block">
                   Registrar
