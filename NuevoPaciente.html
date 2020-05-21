@@ -301,15 +301,31 @@
           
 		  <table class="user" width="100%" >
           <tr>
-          	<td colspan="6" align="center" style="color:#333;background-color:#CCC;"><b>Datos Personales</b></td>
+          	<td colspan="3" align="center" style="color:#333;background-color:#CCC;"><b>Datos Personales</b></td>
           </tr>
           <tr>
-            <td width="8%">Unidad m&eacute;dica:</td>
-            <td width="46%">&nbsp;</td>
-            <td width="8%">N&ordm; Carta:</td>
-            <td width="15%">&nbsp;</td>
-            <td width="8%">Fecha</td>
-            <td width="15%">&nbsp;</td>
+            <td width="49%"><select style="border-bottom:1px" class="form-control form-control-user" name="txtUnidMedica">
+                        	<option selected>Centro Medico Guayaquil</option>
+                        	<option>Cruz Roja Centro</option>
+                            <option>Centro de acopio CRG Norte</option>
+                    		</select></td>
+            <td width="23%"><input type="text" class="form-control form-control-user" id="txtNoCarta" placeholder="No de Carta Comp."></td>
+            <td width="23%"><input type="date" class="form-control form-control-user" id="txtFecha" placeholder="Fecha"></td>
+          </tr>
+          <tr>
+            <td><input type="search" class="form-control form-control-user" id="txtPaciente" placeholder="Paciente"></td>
+            <td><input type="text" class="form-control form-control-user" id="txtEdad" placeholder="Edad"></td>
+            <td><select style="border-bottom:1px" class="form-control form-control-user" name="txtUnidMedica">
+                        	<option selected>Grupo Sangu&iacute;neo</option>
+                        	<option>A+</option>
+                            <option>A-</option>
+                            <option>B+</option>
+                            <option>B-</option>
+                            <option>AB-</option>
+                            <option>AB+</option>
+                            <option>O+</option>
+                            <option>O-</option>
+                    		</select></td>
           </tr> 
           </table>
           
