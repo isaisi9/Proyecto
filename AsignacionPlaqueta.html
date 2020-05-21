@@ -301,60 +301,31 @@
           <h1 class="h3 mb-4 text-gray-800"><b><font style="color:#B03A2E">Donaci&oacute;n de Sangre</font></b></h1>
           <table class="user" width="100%" >
             <tr>
-            <td colspan="5" style="color:#333;background-color:#E9E9E9;"><b>Examen F&iacute;sico (Datos a completar por medicina Transfuncional)</b></td>
+            <td colspan="4" style="color:#333;background-color:#E9E9E9;"><b>Examen F&iacute;sico (Datos a completar por medicina Transfuncional)</b></td>
           </tr>
           <tr>
             <td colspan="2"><input type="text" class="form-control form-control-user" id="txtPaciente" placeholder="Paciente"></td>
             <td width="4%"><a href="https://imgbb.com/"><img src="https://i.ibb.co/BjsP270/13d99f3d0cf4aec174b5869efa816e13-icono-de-lupa.png" width="25px" height="25px" border="0"></a></td>
-            <td width="35%">&nbsp;</td>
-            <td width="35%"><a href="Consultar.html" class="btn btn-danger btn-user btn-block">
-                  Consultar
-                </a></td>
+            <td width="50%"><input type="text" class="form-control form-control-user" id="txtPlaqueta" placeholder="No. Plaqueta"></td>
           </tr>
           
           <tr>
-            <td colspan="3"><input type="text" class="form-control form-control-user" id="txtPeso" placeholder="Peso"></td>
-            <td ><input type="text" class="form-control form-control-user" id="txtTemperatura" placeholder="Temperatura"></td>
-            <td ><input type="text" class="form-control form-control-user" id="txtInspeccion" placeholder="Inspecci&oacute;n de Brazos"></td>
+            <td colspan="2"><input type="datetime" class="form-control form-control-user" id="txtFecHora" placeholder="Fecha/hora"></td>
+            <td >&nbsp;</td>
           </tr>
           <tr>
-            <td colspan="3"><input type="text" class="form-control form-control-user" id="txtPeso" placeholder="Tensi&oacute;n arterial"></td>
-            <td ><input type="text" class="form-control form-control-user" id="txtTemperatura" placeholder="Hemoglobina"></td>
-            <td ><input type="text" class="form-control form-control-user" id="txtInspeccion" placeholder="Recuento de Plaquetas"></td>
+            <td colspan="2"><select style="border-bottom:1px" class="form-control form-control-user" name="txtUnidMedica">
+                        	<option selected>Centro M&eacute;dico</option>
+                        	<option>Cruz Roja Centro</option>
+                            <option>Centro de acopio CRG Norte</option>
+                    		</select></td>
+            <td >&nbsp;</td>
           </tr>
           <tr>
-            <td colspan="3"><input type="text" class="form-control form-control-user" id="txtPeso" placeholder="Pulso"></td>
-            <td ><input type="text" class="form-control form-control-user" id="txtTemperatura" placeholder="Hematroquino"></td>
-            <td ><input type="text" class="form-control form-control-user" id="txtInspeccion" placeholder="M&eacute;dico"></td>
+            <td colspan="2"><input type="text" class="form-control form-control-user" id="txtDireccion" placeholder="Direcci&oacute;n"></td>
+            <td >&nbsp;</td>
           </tr>
-          <tr>
-            <td colspan="5"><input name="voluntarioplantel" type="checkbox" value=""> Voluntario Plantel &nbsp;&nbsp;
-            				<input name="voluntarioexpontaneo" type="checkbox" value=""> Voluntario Expont&aacute;neo &nbsp;&nbsp;
-                            <input name="autonomo" type="checkbox" value=""> Aut&oacute;logo &nbsp;&nbsp;
-                            <input name="dirigido" type="checkbox" value=""> Dirigido &nbsp;&nbsp;
-                            <input name="plaquetaferesis" type="checkbox" value=""> Plaqueta f&eacute;resis &nbsp;&nbsp;</td>
-          </tr>
-          <tr>
-            <td colspan="5" >&nbsp;</td>
-          </tr>
-          <tr>
-            <td colspan="5" style="color:#333;background-color:#E9E9E9;"><b>Informaci&oacute;n Adicional</b></td>
-          </tr>
-          <tr>
-            <td colspan="4"><b>¿Ha recibido transfusiones en algun momento de su vida</b></td>
-            <td align="center" ><input name="si" type="checkbox" value=""> Si &nbsp;&nbsp;
-            	 <input name="no" type="checkbox" value=""> No</td>
-          </tr>
-          <tr>
-            <td colspan="4"><b>¿Ha tenido embarazos?</b></td>
-            <td align="center" ><input name="si" type="checkbox" value=""> Si &nbsp;&nbsp;
-            	 <input name="no" type="checkbox" value=""> No</td>
-          </tr>
-          <tr>
-            <td colspan="4"><b>¿Ha ingerido aspirina en los 3 ultimos dias?</b></td>
-            <td align="center" ><input name="si" type="checkbox" value=""> Si &nbsp;&nbsp;
-            	 <input name="no" type="checkbox" value=""> No</td>
-          </tr>
+          
           </table>
           <a href="NuevoDonante.html" class="btn btn-danger btn-user btn-block">
                   Registrar
