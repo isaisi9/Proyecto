@@ -453,6 +453,26 @@
           </tr>
           </table>
 
+
+$("#confirm").click(function(){
+  var bool=confirm("Seguro de eliminar el dato?");
+  if(bool){
+    alert("se elimino correctamente");
+  }else{
+    alert("cancelo la solicitud");
+  }
+});
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<button id="confirm">confirmar eliminacion</button>
+
+
+
+
+
+
+
+
+
 				<a href="NuevoDonante.html" class="btn btn-danger btn-user btn-block">
 				  <input type="submit" class="button" name="Registrar" onclick="hizoClick()" value="Registrar">
           
