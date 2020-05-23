@@ -17,6 +17,15 @@
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
+  
+  
+  <!-- Esta parte es de la geolocalizacion-->
+  
+  <link rel="stylesheet" type="text/css" href="css/Crimen.css" />
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+        <script src="js/jquery-3.4.1.js" type="text/javascript"></script>
+        <script src="js/leaflet.js"></script>
+ <!-- corte-->
 
 </head>
 
@@ -269,20 +278,20 @@
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                 <a class="dropdown-item" href="#">
                   <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Perfil
+                  Profile
                 </a>
                 <a class="dropdown-item" href="#">
                   <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Configuracion
+                  Settings
                 </a>
                 <a class="dropdown-item" href="#">
                   <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Actividad
+                  Activity Log
                 </a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                   <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                  Salir
+                  Logout
                 </a>
               </div>
             </li>
@@ -522,12 +531,32 @@
                     <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="https://i.ibb.co/0qMjs0m/logo.png" alt="">
                   </div>
                   <p>Una iniciativa ciudadana que busca recaudar fondos para ayudar al sistema de salud. </p>
-                  <a target="_blank" rel="nofollow" href="https://www.salvarvidas.ec/?gclid=Cj0KCQjwzZj2BRDVARIsABs3l9I7Y7aL2l_AKeVZ8cqVkzcBrJysHvkPZkmWqlq9KFzU6uyM3_Et8J4aAkebEALw_wcB">Conoce m&aacute;s</a>
+                  <a target="_blank" rel="nofollow" href="https://undraw.co/">Conoce m&aacute;s</a>
+                </div>
+              </div>
+
+              <!-- Approach -->
+			  
+			  
+			  <!-- Illustrations -->
+              <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Donantes en Guayaquil</h6>
+                </div>
+                <div class="card-body">
+                  
+				  
+				  <div id="map">MAP</div>
+				<script src="js/CrimenWebAPI.js"></script>
+				  
+				  
                 </div>
               </div>
 
               <!-- Approach -->
               
+			  
+			  
 
             </div>
           </div>
