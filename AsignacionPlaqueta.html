@@ -333,8 +333,28 @@
           
           
           </table>
-          <a href="AsignacionPlaqueta.html" class="btn btn-danger btn-user btn-block">
-                  Registrar
+
+				<a href="AsignacionPlaqueta.html" id="confirm" class="btn btn-danger btn-user btn-block">
+				    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+					Registrar
+                </a>
+				  
+				
+          
+					<script>
+					
+					$("#confirm").click(function(){
+						var bool=confirm("Seguro de Registrar Asignacion de sangre al paciente?");
+							if(bool){
+								alert("se Registro Correctamente");
+									}else{
+										alert("cancelo el registro");
+										}
+									});
+					<!-- 	function hizoClick() {
+						//alert("usuario Registrado");
+					//	}
+					</script>
                 </a>
           
         </div>

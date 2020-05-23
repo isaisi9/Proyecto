@@ -397,10 +397,31 @@
 		  </td>
           </tr>
           
-          <a href="NuevoPaciente.html" class="btn btn-danger btn-user btn-block">
-                  Registrar
+		  <a href="NuevoPaciente.html" id="confirm" class="btn btn-danger btn-user btn-block">
+				    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+					Registrar
                 </a>
+				  
+				
           
+					<script>
+					
+					$("#confirm").click(function(){
+						var bool=confirm("Seguro de Registrar al Paciente?");
+							if(bool){
+								alert("se Registro Correctamente al Paciente");
+									}else{
+										alert("cancelo el registro");
+										}
+									});
+					<!-- 	function hizoClick() {
+						//alert("usuario Registrado");
+					//	}
+					</script>
+                </a>
+		  
+		  
+                    
         </div>
         <!-- /.container-fluid -->
 

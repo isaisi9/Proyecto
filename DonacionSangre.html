@@ -366,10 +366,31 @@
             	 <input name="no" type="checkbox" value=""> No</td>
           </tr>
           </table>
-          <a href="DonacionSangre.html" class="btn btn-danger btn-user btn-block">
-                  Registrar
+
+			<a href="DonacionSangre.html" id="confirm" class="btn btn-danger btn-user btn-block">
+				    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+					Registrar
                 </a>
+				  
+				
           
+					<script>
+					
+					$("#confirm").click(function(){
+						var bool=confirm("Seguro de Registrar la Donacion?");
+							if(bool){
+								alert("Se Registro Correctamente");
+									}else{
+										alert("cancelo el registro");
+										}
+									});
+					<!-- 	function hizoClick() {
+						//alert("usuario Registrado");
+					//	}
+					</script>
+                </a>
+
+
         </div>
         <!-- /.container-fluid -->
 
